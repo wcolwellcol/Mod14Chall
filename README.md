@@ -10,8 +10,10 @@ The baseline windows I started with were 4 days for the short window and 100 day
 DecisionTreeClassifier:
 The decision tree classifier overall is a less reliable strategy than the SVC classifier baseline model and that same model tuned. Compared to both base case and tuned parameters, the decision tree unilaterally performed worse across different test cases.
 
+Short window of 4, long window of 120, training 6 months:
 ![Short window of 4, long window of 120, training 6 months](https://github.com/wcolwellcol/Mod14Chall/blob/main/images/DT6sw4lw120.png)
 
+Optimal set up:
 ![Optimal set up](https://github.com/wcolwellcol/Mod14Chall/blob/main/images/DToptimal.png)
 
 
@@ -66,6 +68,6 @@ Overall, lengthening the amount of training time for the ML model translated int
 
 Changing the SMA windows had varying results. Overall, I found my initial setup of a short window of 4 and a long window of 100 worked best. Both increasing and decreasing either window seemed to have an unpredictable effect for me. I tried lengthening both, shortening both, mixing up the two, and found that a 4 and 100 set up was my best attempt. I'm sure there is a more optimal mix out there but I could not find it given my time constraints.
 
-The best result is captured below.
+The best result is captured below. This is a set up with 6 months of training, short window of 4, long window of 100
 ![6 months of training, short window of 4, longwindow of 100](https://github.com/wcolwellcol/Mod14Chall/blob/main/images/SVC6.png)
 
