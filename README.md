@@ -11,9 +11,13 @@ DecisionTreeClassifier:
 The decision tree classifier overall is a less reliable strategy than the SVC classifier baseline model and that same model tuned. Compared to both base case and tuned parameters, the decision tree unilaterally performed worse across different test cases.
 
 Short window of 4, long window of 120, training 6 months:
+
 ![Short window of 4, long window of 120, training 6 months](https://github.com/wcolwellcol/Mod14Chall/blob/main/images/DT6sw4lw120.png)
 
+
+
 Optimal set up:
+
 ![Optimal set up](https://github.com/wcolwellcol/Mod14Chall/blob/main/images/DToptimal.png)
 
 
